@@ -1,2 +1,2 @@
 # letsencrypt-on-ingress
-##Configure cert manager for Nginx Ingress
+## Configure cert manager for Nginx Ingress
