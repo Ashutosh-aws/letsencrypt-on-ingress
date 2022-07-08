@@ -5,7 +5,6 @@ kubectl command for Kubernetes version 1.16+
 kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v1.0.1/cert-manager.yaml
 
 ## Kubernetes Nginx Ingress Controller LetsEncrypt
-
 sudo nano  letsencrypt-issuer.yml
 
 apiVersion: cert-manager.io/v1
@@ -56,4 +55,3 @@ CHECK THE SECRET WITH ABOVE SECRETNAME & CERTICATE
     - <DNS>
     secretName: <SECRET NAME>
   
-          
